@@ -82,7 +82,7 @@ Resources:
     Properties:
       AutomaticStopTimeMinutes: 30
       Description: Wild Rydes Async Messaging Workspace
-      InstanceType: t2.micro
+      InstanceType: t2.medium
       Name: !Sub "WildRydesAsyncMessaging-${AWS::StackName}"
       Repositories:
         - PathComponent: /wild-rydes-async-messaging
